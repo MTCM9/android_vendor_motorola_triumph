@@ -17,7 +17,7 @@
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES := \
     vendor/motorola/triumph/proprietary/libaudioalsa.so:obj/lib/libaudioalsa.so \
-    vendor/motorola/triumph/proprietary/libcamera.so:obj/lib/libcamera.so \
+    vendor/motorola/triumph/proprietary/FromCM7/libcamera.so:obj/lib/libcamera.so \
 
 # Audio
 PRODUCT_COPY_FILES += \
@@ -40,10 +40,12 @@ PRODUCT_COPY_FILES += \
 # Camera
 PRODUCT_COPY_FILES += \
     vendor/motorola/triumph/proprietary/libcamera.so:system/lib/libcamera.so \
-    vendor/motorola/triumph/proprietary/liboemcamera.so:system/lib/liboemcamera.so \
+    vendor/motorola/triumph/proprietary/FromCM7/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/motorola/triumph/proprietary/libgemini.so:system/lib/libgemini.so \
-    vendor/motorola/triumph/proprietary/libmmjpeg.so:system/lib/libmmjpeg.so \
-    vendor/motorola/triumph/proprietary/libmmipl.so:system/lib/libmmipl.so
+    vendor/motorola/triumph/proprietary/FromCM7/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/motorola/triumph/proprietary/FromCM7/libcamera_client.so:system/lib/libcamera_client.so \
+    vendor/motorola/triumph/proprietary/FromCM7/libcameraservice.so:system/lib/libcameraservice.so \
+    vendor/motorola/triumph/proprietary/FromCM7/libmmipl.so:system/lib/libmmipl.so
 
 # GPS files from Cherry 2.3.5
 PRODUCT_COPY_FILES += \
