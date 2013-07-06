@@ -39,13 +39,13 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_COPY_FILES += \
-    vendor/motorola/triumph/proprietary/sharp/libcamera.so:system/lib/libcamera.so \
-    vendor/motorola/triumph/proprietary/sharp/liboemcamera.so:system/lib/liboemcamera.so \
-    vendor/motorola/triumph/proprietary/sharp/libgemini.so:system/lib/libgemini.so \
-    vendor/motorola/triumph/proprietary/sharp/libmmjpeg.so:system/lib/libmmjpeg.so \
-    vendor/motorola/triumph/proprietary/sharp/libcamera_client.so:system/lib/libcamera_client.so \
-    vendor/motorola/triumph/proprietary/sharp/libcameraservice.so:system/lib/libcameraservice.so \
-    vendor/motorola/triumph/proprietary/sharp/libmmipl.so:system/lib/libmmipl.so
+    vendor/motorola/triumph/proprietary/cm9boot/libcamera.so:system/lib/libcamera.so \
+    vendor/motorola/triumph/proprietary/cm9boot/liboemcamera.so:system/lib/liboemcamera.so \
+    vendor/motorola/triumph/proprietary/cm9boot/libgemini.so:system/lib/libgemini.so \
+    vendor/motorola/triumph/proprietary/cm9boot/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/motorola/triumph/proprietary/cm9boot/libcamera_client.so:system/lib/libcamera_client.so \
+    vendor/motorola/triumph/proprietary/cm9boot/libcameraservice.so:system/lib/libcameraservice.so \
+    vendor/motorola/triumph/proprietary/cm9boot/libmmipl.so:system/lib/libmmipl.so
 
 # GPS files from Cherry 2.3.5
 PRODUCT_COPY_FILES += \
